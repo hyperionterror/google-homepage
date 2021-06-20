@@ -1,0 +1,1 @@
+This Google homepage replication is to allow me to learn how to reconstruct a website all while learning how to build one from scratch.

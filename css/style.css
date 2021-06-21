@@ -47,6 +47,24 @@ a:visited {
     height: 45px;
 }
 
+.profile-container {
+    float: right;
+    display: inline-block;
+    margin-top: 8px;
+    padding: 0px 13px 0px 13px;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.profile-container:hover {
+    background-color: #ebebec;
+    border-radius: 50%;
+}
+
 /* #bento-menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

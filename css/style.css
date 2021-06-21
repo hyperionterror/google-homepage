@@ -26,6 +26,7 @@ a:visited {
 #top-right-stuff {
     display: inline-block;
     float: right;
+    line-height: 30px;
 }
 
 .gmail-images {
@@ -33,17 +34,16 @@ a:visited {
     font-size: 13px;
 }
 
-.app-dropdown {
-    width: 25px;
-    height: 25px;
-    opacity: 0.65;
-}
-
 .bento-container {
-    display: inline-block;
+    float: right;
 }
 
-#bento-menu {
+.bento-container:hover {
+    background-color: grey;
+    border-radius: 50%;
+}
+
+/* #bento-menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -58,13 +58,4 @@ a:visited {
     height: 4px;
     border-radius: 50%;
     background: #5f6368;
-    overflow: hidden;
-}
-
-.bento-btn {
-    
-}
-
-#bento-account {
-    float: right;
-}
+} */

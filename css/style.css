@@ -25,7 +25,9 @@ a:visited {
 }
 
 #top-right-stuff {
-    display: inline-block;
+    /* display: inline-block; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     float: right;
     line-height: 50px;
 }

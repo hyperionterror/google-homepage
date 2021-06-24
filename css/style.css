@@ -180,11 +180,6 @@ an anchor element, however (which in this case I am). */
     position: relative;
 }
 
-srch-input {
-    border-radius: 50%;
-    border: black 2px;
-}
-
 srch-input: active {
     style: none;
 }

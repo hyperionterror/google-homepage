@@ -199,6 +199,10 @@ an anchor element, however (which in this case I am). */
     box-shadow: 0 1px 6px rgba(32,33,36,0.28);
 }
 
+.form-border:focus-within {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
 .srch-input {
     width: 530px;
     height: 34px;

@@ -162,10 +162,10 @@ an anchor element, however (which in this case I am). */
 }
 
 .google-container {
-    position: absolute;
+    position: relative;
     min-width: 100%;
     min-height: 100%;
-    height: 290px;
+    height: 262px;
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -173,18 +173,38 @@ an anchor element, however (which in this case I am). */
 
 .google-logo {
     position: relative;
-    margin-top: 200px;
+    margin-top: 170px;
 }
 
 .form-container {
-    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
 }
 
-srch-input: active {
-    style: none;
+.form-border {
+    border: solid 1px #dfe1e5;
+    height: 44px;
+    width: 584px;
+    border-radius: 24px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 530px;
+    height: 34px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
 }
 
 .glass {
     width: 15px;
     height: 15px;
+    opacity: 0.4;
+    margin-left: 15px;
 }

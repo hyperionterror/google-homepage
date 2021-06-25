@@ -193,6 +193,10 @@ an anchor element, however (which in this case I am). */
     align-items: center;
 }
 
+.form-border:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
 input {
     width: 530px;
     height: 34px;

@@ -197,7 +197,7 @@ an anchor element, however (which in this case I am). */
     box-shadow: 0 1px 6px rgba(32,33,36,0.28);
 }
 
-input {
+.srch-input {
     width: 530px;
     height: 34px;
     font-size: 16px;
@@ -211,4 +211,64 @@ input {
     height: 15px;
     opacity: 0.4;
     margin-left: 15px;
+}
+
+#buttons {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.btn-box1 {
+    width: 101.367px;
+    height: 34px;
+    padding: 0 16px 0 16px;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    margin: 11px 4px 11px 0;
+    margin-left: auto;
+}
+
+.btn-box1:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #dadce0;
+}
+
+.btn-search {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: none;
+    Background-color: transparent;
+}
+
+.btn-box2 {
+    width: 116.467px;
+    height: 34px;
+    padding: 0 16px 0 16px;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    margin: 11px 0 11px 4px;
+    margin-right: auto;
+}
+
+.btn-box2:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #dadce0;
+}
+
+.lucky {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: none;
+    Background-color: transparent;
 }
